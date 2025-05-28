@@ -1,0 +1,10 @@
+#app{
+    width: 100vw;
+    height: 100vh;
+    gap: 1rem;
+}
+.contact, .eduction, .workxp, .skill, .extra {
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin: 2rem 0px;
+}
