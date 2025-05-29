@@ -1,4 +1,4 @@
-import '../styles/ContactDis.css';
+import '../styles/contactDis.css';
 
 function ContactDis ({selectedPicture, info}) {
     return (
