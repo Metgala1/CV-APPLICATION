@@ -4,10 +4,10 @@
     background: linear-gradient(to bottom, white, rgb(181, 211, 226));
     padding: 0 1.5rem;
     padding-bottom:  1rem;
-    margin: 0px 8rem 0px 8rem;
-    padding: 3rem;
+    margin: 0px 5rem 0px 5rem;
+    padding: 0.9rem;
     border-radius: 10px;
-    border: 0.4rem dashed black;
+    padding-top: 0.1rem;
 }
 
 @media (max-width: 768px) {
@@ -21,5 +21,5 @@
 }
 
 #display hr{
-    border: 4px solid grey;
+    border: 4px solid black;
 }

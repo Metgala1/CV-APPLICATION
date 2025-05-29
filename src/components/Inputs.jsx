@@ -6,7 +6,7 @@ import Skills from "./Skills";
 import WorkXp from "./WorkXp";
 import Extra from "./Extra";
 
-function Inputs({selectedPicture, setSelectedPicture, extra, setExtra, skill, setSkill, work, setWork,data, setData,education, setEducation, setSubmitted}) {
+function Inputs({setSelectedPicture, extra, setExtra, skill, setSkill, work, setWork,data, setData,education, setEducation, setSubmitted}) {
     
     const [input, setInput] = useState(data);
     const [edu, setEdu] = useState(education);
@@ -68,7 +68,13 @@ function Inputs({selectedPicture, setSelectedPicture, extra, setExtra, skill, se
            {step > 0 && <button className="prev" onClick={decrementStep} type="button">Previous</button>}
 
            </form>
-
+           <div className="circle-div">
+            {[0,1,2,3,4].map((idx) => (
+                <div key={idx} className={`circle${step === idx ? " active" : ""}`} onClick={() => setStep(idx)}>
+                </div>      
+            ) )}
+            
+           </div>
         </div>
     )
 }

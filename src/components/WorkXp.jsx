@@ -1,6 +1,6 @@
 function WorkXp ({handleChange}) {
 
-    function addExpirience () {
+   /* function addExpirience () {
 
         const workContainer = document.getElementById("work");
         const newWorkDiv = document.createElement("div");
@@ -30,7 +30,7 @@ function WorkXp ({handleChange}) {
         `;
         workContainer.appendChild(newWorkDiv);
 
-    }
+    }*/
 
     return (
         <div className="workxp">
@@ -61,7 +61,7 @@ function WorkXp ({handleChange}) {
             <label></label>
              <hr />
         </div>
-        <button onClick={addExpirience} type="button">Add Work Expirience</button>
+        {/*<button onClick={addExpirience} type="button">Add Work Expirience</button>*/}
         </div>
     )
 

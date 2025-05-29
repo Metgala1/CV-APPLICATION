@@ -58,4 +58,37 @@
   color: red;
 }
 
+.circle-div{
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 3rem;
+}
 
+.circle-div .circle{
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+input[type="file"]{
+  margin-bottom: 1rem;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #ccc;
+  display: inline-block;
+  margin: 0 5px;
+  transition: background 0.3s;
+}
+
+.circle.active {
+  background: green;
+  border-color: green;
+}
