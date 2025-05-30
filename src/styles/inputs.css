@@ -31,23 +31,6 @@
   color: green;
   font-weight: 500;
 }
-
-@media  (max-width: 760px) {
-  .input-div {
-    margin: 0;
-    width: 100%;
-    padding: 0px 2rem 0px 2rem;
-    
-  }
-  .input-div label, .input-div input {
-    margin-bottom: 5px;
-  }
-  .input-div input {
-    height: 1.5rem;
-  }
-  textarea{
-    height: 4rem;
-  }
 .input-div hr{
   border: 4px solid ;
   margin: 0px 0.5rem;
@@ -94,4 +77,22 @@ input[type="file"]{
 
 .input-div hr{
   border: 0.2rem solid rgb(185, 182, 182);
+}
+@media  (max-width: 760px) {
+  .input-div {
+    margin: 0;
+    width: 100%;
+    padding: 0px 2rem 0px 2rem;
+    
+  }
+  .input-div label, .input-div input {
+    margin-bottom: 5px;
+  }
+  .input-div input {
+    height: 1.5rem;
+  }
+  textarea{
+    height: 4rem;
+  }
+ 
 }
