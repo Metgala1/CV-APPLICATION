@@ -1,7 +1,6 @@
 #app{
     width: 100vw;
     height: 100vh;
-    gap: 1rem;
 }
 .contact, .eduction, .workxp, .skill, .extra {
     outline: 1rem solid rgb(25, 105, 99);
