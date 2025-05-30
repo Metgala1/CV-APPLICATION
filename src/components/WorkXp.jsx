@@ -59,7 +59,6 @@ function WorkXp ({handleChange}) {
                 <textarea onChange={handleChange} name="jobDescription" id="jobDescription" cols="30" rows="10"></textarea>
             </label>
             <label></label>
-             <hr />
         </div>
         {/*<button onClick={addExpirience} type="button">Add Work Expirience</button>*/}
         </div>

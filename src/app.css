@@ -4,7 +4,11 @@
     gap: 1rem;
 }
 .contact, .eduction, .workxp, .skill, .extra {
-    border: 3px solid grey;
+    outline: 1rem solid rgb(25, 105, 99);
     border-radius: 10px;
-    margin: 2rem 0px;
+    margin: 0.5rem 0px 2.5rem 0px;
+    padding: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+    
 }

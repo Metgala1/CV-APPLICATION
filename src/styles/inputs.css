@@ -2,8 +2,8 @@
   background-color: rgb(6, 59, 55);
   flex: 1;
   padding-bottom:  1rem;
-  margin: 0px 8rem 0px 8rem;
-  padding: 3rem;
+  margin: 0px 6rem 0px 6rem;
+  padding: 2.5rem;
   border-radius: 10px;
   height: 100%;
 
@@ -91,4 +91,8 @@ input[type="file"]{
 .circle.active {
   background: green;
   border-color: green;
+}
+
+.input-div hr{
+  border: 0.2rem solid rgb(185, 182, 182);
 }
