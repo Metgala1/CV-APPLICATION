@@ -6,7 +6,7 @@ import './styles/interface.css'
 
 function App() {
   const [data, setData] = useState({phone: '', email: '', address: '', website: '', name: ''});
-  const [education, setEducation] = useState({degree: "BSC", school: "MAlkA", year: 2016})
+  const [education, setEducation] = useState({degree: "", school: "", year: null})
   const [submitted, setSubmitted]= useState(false);
   const [work, setWork] = useState({company: '', position: '', startDate: '', endDate: '', job: '', year: '', jobDescription: ''})
   const [skill, setSkill] = useState('');
